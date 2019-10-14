@@ -2951,7 +2951,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	margin: 0;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:  100% 110%;
 	overflow: hidden;
 }
 
@@ -3077,7 +3077,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .slider-caption h2 {
-	font-size: 4rem;
+	font-size: 3rem;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -3086,8 +3086,8 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .slider-caption p {
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-top: 1px;
+	margin-bottom: 20px;
 	font-size: 24px;
 }
 
