@@ -154,11 +154,11 @@ span.middot {
 }
 
 .bgcolor,
-.bgcolor #header-wrap { background-color: #8DBC20 !important; }
+.bgcolor #header-wrap { background-color: #1ABC9C !important; }
 
-.color { color: #8DBC20 !important; }
+.color { color: #1ABC9C !important; }
 
-.border-color { border-color: #8DBC20 !important; }
+.border-color { border-color: #1ABC9C !important; }
 
 .nobg { background: none !important; }
 

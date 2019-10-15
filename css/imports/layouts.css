@@ -102,10 +102,8 @@ body.stretched .container-fullwidth {
 	margin-right: 0;
 }
 
-.postcontent.col_last,
-.sidebar.col_last { float: right; }
-
 .col_last {
 	margin-right: 0 !important;
+	float: right;
 	clear: right;
 }

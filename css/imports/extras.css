@@ -17,7 +17,7 @@
 
 .table .danger { color: #a94442; }
 
-.btn-link { color: #8DBC20; }
+.btn-link { color: #1ABC9C; }
 
 .btn-link:hover,
 .btn-link:focus { color: #222; }
@@ -55,8 +55,8 @@
 .page-link:hover,
 .page-link:focus {
 	color: #FFF !important;
-	background-color: #8DBC20 !important;
-	border-color: #8DBC20 !important;
+	background-color: #1ABC9C !important;
+	border-color: #1ABC9C !important;
 }
 
 label.radio,
@@ -71,21 +71,35 @@ label.checkbox { padding-left: 20px; }
 
 #cookie-notification {
 	position: fixed;
+	opacity: 0;
 	top: auto;
-	bottom: 0;
+	bottom: -70px;
 	left: 0;
 	width: 100%;
-	height: 60px;
-	line-height: 60px;
+	padding: 20px 0;
+	line-height: 24px;
 	background-color: #EEE;
 	color: #444;
 	z-index: 99;
 	-webkit-box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
 	-moz-box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
 	box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
 }
 
-.cookie-noti-btn { margin-top: 15px; }
+#cookie-notification .container {
+	padding-right: 100px;
+	position: relative;
+}
+
+#cookie-notification .cookie-noti-btn {
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 0;
+}
 
 
 /* ----------------------------------------------------------------
@@ -123,6 +137,7 @@ body:not(.no-transition) #wrapper,
 	background-color: #FFF;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
+	-webkit-perspective: 1000;
 }
 
 .css3-spinner > div {
