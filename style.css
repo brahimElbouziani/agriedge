@@ -3513,7 +3513,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 10px 0;
+	padding: 80px 0;
 }
 
 #content .container { position: relative; }
@@ -6547,7 +6547,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	outline: none;
 	white-space: nowrap;
 	margin: 5px;
-	padding: 0 22px;
+	padding: 0 4px;
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
@@ -6679,8 +6679,7 @@ body:not(.device-touch) .button {
 	border: 2px solid #444;
 	background-color: transparent;
 	color: #333;
-	line-height: 36px;
-	font-weight: 700;
+ 	font-weight: 700;
 	text-shadow: none;
 }
 
@@ -7968,9 +7967,10 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.media-box .fbox-media a,
 .feature-box.media-box .fbox-media img {
 	position: relative;
-	display: block;
-	width: 100%;
+ 	width: 70%;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .feature-box.media-box .fbox-media iframe { display: block; }

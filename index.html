@@ -27,6 +27,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
+	<!-- Theme Color Stylesheet -->
+	<link rel="stylesheet" href="demos/news/css/colors.css" type="text/css" />
+	<link rel="stylesheet" href="demos/news/css/fonts.css" type="text/css" />
+
+	<!-- News Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/news/news.css" type="text/css" />
+	<!-- / -->
+
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
 	<!-- Document Title
 	============================================= -->
 	<title>Agri Edge</title>
@@ -126,7 +139,7 @@
 							<li><a href="#" data-href="#section-work">
 									<div>Services</div>
 								</a></li>
-						 
+
 							<li><a href="#" data-href="#section-services">
 									<div>Media</div>
 								</a></li>
@@ -136,21 +149,6 @@
 								</a></li>
 
 						</ul>
-
-						<!-- logo spensors 
-						=============================================  
-
-						<div id="logo">
-							<a href="https://www.ocpgroup.ma" class="standard-logo">
-								<img src="images/Logo-OCP-Quadri.png"></a>
-						</div>
-						<div id="logo">
-							<a href="https://www.um6p.ma/" class="standard-logo">
-								<img src="images/logo_um6p.png"></a>
-						</div>
-
-						 #logo spensors -->
-
 					</nav><!-- #primary-menu end -->
 				</div>
 
@@ -163,90 +161,199 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-
 			<div class="content-wrap">
-
 				<section id="section-about" class="page-section">
-
 					<div class="container clearfix">
+						<div class="row clearfix">
+							<!-- Posts Area
+							============================================= -->
+							<div class="col-lg-8">
+								<!-- Tab Menu
+								============================================= -->
+								<nav class="navbar navbar-expand-lg navbar-light p-0">
+									<h4 class="mb-0 pr-2 ls1 uppercase t700">
+										WE TRANSFORM DATA INTO A NUTRIENT
+									</h4>
+									<button class="navbar-toggler" type="button" data-toggle="collapse"
+										data-target="#navbarToggler1" aria-controls="navbarToggler1"
+										aria-expanded="false" aria-label="Toggle navigation">
+										<i class="icon-line-menu"></i>
+									</button>
+									<div class="collapse navbar-collapse justify-content-between" id="navbarToggler1">
+										<div></div>
+										<ul class="nav nav-sm navbar-nav mr-md-auto mr-lg-0 mt-2 mt-lg-0 align-self-end"
+											role="tablist">
+											<li class="nav-item">
+												<a class="nav-link bg-color-travel active" id="nav-outdoor-tab"
+													data-toggle="tab" href="#nav-outdoor" role="tab"
+													aria-selected="true">
+													<img src="images/logo_x.png">
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link bg-color-sports" id="nav-food-tab" data-toggle="tab"
+													href="#nav-food" role="tab" aria-selected="false">
+													<h1>Fertilization </h1>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link bg-color-food" id="nav-travel-tab" data-toggle="tab"
+													href="#nav-irrigation" role="tab" aria-selected="false">
+													<h1> Irrigation</h1>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link bg-color-tech" id="nav-fashion-tab" data-toggle="tab"
+													href="#nav-fashion" role="tab" aria-selected="false">
+													<h1> Disease</h1>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+								<!-- Tab Content
+								============================================= -->
+								<div class="line line-xs line-dark"></div>
+								<div class="tab-content" id="nav-tabContent">
+									<!-- Tab Content 1
+									============================================= -->
+									<div class="tab-pane fade show active" id="nav-outdoor" role="tabpanel"
+										aria-labelledby="nav-outdoor-tab">
+										<div class="row clearfix">
+											<article class="ipost">
+												<div class="entry-image mb-3">
+													<img src="images/schema11.png">
 
-						<div class="heading-block center">
-							<h2>We are <span>AGRI EDGE</span></h2>
+													<div class="entry-categories">
+													</div>
 
-							<span> we rely on the use of data collected via sensors, satellite images or
-								drone images that we valuate through the use of algorithmic models and agronomic
-								knowledge
-								in order to give recommendations to farmers, via a mobile application, to rationalize
-								costs
-								of the agricultural inputs.</span>
+												</div>
+											</article>
+											<div class="owl-carousel carousel-widget"> </div>
+
+											<a onclick="click_fertilisation()"
+												class="button button-border button-rounded button-fill button-amber">
+												<span>
+													<img src="images/fertilizer_icon.png">
+													Reasoned Fertilization</span>
+											</a>
+											<a onclick="click_irrigton()"
+												class="button button-border button-rounded button-fill button-aqua">
+												<span>
+													<img src="images/plant_x.png">
+													Precision Irrigation</span></a>
+											<a onclick="click_desease()"
+												class="button button-border button-rounded button-fill button-blue">
+												<span>
+													<img src="images/leaf.png">
+													Disease Identification</span></a>
+										</div>
+									</div>
+									<!-- Tab Content 2
+									============================================= -->
+									<div class="tab-pane fade" id="nav-food" role="tabpanel"
+										aria-labelledby="nav-food-tab">
+										<div class="row clearfix">
+											<article class="ipost">
+												<div class="entry-image mb-3">
+
+													<img src="images/shema4.png">
+													<div class="entry-categories">
+													</div>
+												</div>
+											</article>
+										</div>
+									</div>
+									<!-- Tab Content 3
+									============================================= -->
+									<div class="tab-pane fade" id="nav-irrigation" role="tabpanel"
+										aria-labelledby="nav-food-tab">
+
+										<div class="row clearfix">
+											<article class="ipost">
+												<div class="entry-image mb-3">
+
+													<img src="images/schema2_2.png">
+													<img src="images/schema2.png">
+
+
+													<div class="entry-categories">
+													</div>
+												</div>
+											</article>
+										</div>
+									</div>
+									<!-- Tab Content 4
+									============================================= -->
+									<div class="tab-pane fade" id="nav-fashion" role="tabpanel"
+										aria-labelledby="nav-fashion-tab">
+										<div class="row clearfix">
+											<article class="ipost">
+												<div class="entry-image mb-3">
+													<img src="images/schema3.png">
+
+
+													<div class="entry-categories">
+													</div>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div><!-- Tab End -->
+							</div>
+
+							<!-- Top Sidebar Area
+							============================================= -->
+							<div class="col-lg-4 sticky-sidebar-wrap mt-5 mt-lg-0">
+								<div class="sticky-sidebar">
+									<!-- Sidebar Widget 1
+									============================================= -->
+									<div class="widget clearfix">
+										<h4 class="mb-2 ls1 uppercase t700">WE RELY ON RESEARCH AND DEVELOPMENT</h4>
+										<div class="line line-xs line-market"></div>
+										<div class="row center mt-4 clearfix">
+
+											<div class="nobottommargin">
+												<div class="feature-box media-box">
+													<div class="fbox-media">
+														<a href="https://agriad.um6p.ma/" target="_blank">
+															<img src="images/newlogoagriad.png">
+														</a>
+													</div>
+													<div class="fbox-desc">
+														<h3> Our approach is focused on research and development<span
+																class="subtitle">in order to promote sustainable
+																agriculture.</span></h3>
+														<p>
+															We work closely with an international scientific community
+															composed of recognized experts in the field of precision
+															agriculture.
+															These experts lead the annual Agri Analytics Days,
+															AgriEdge's scientific platform.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div> <!-- Sidebar End -->
 						</div>
-
-						<!-- How We Work
-				============================================= -->
-
-
-						<!-- How We Work - Carousel
-						============================================= -->
-						<div id="oc-features" class="owl-carousel owl-carousel-full image-carousel carousel-widget">
-							<div class="oc-item">
-								<div class="row cleafix">
-
-									<div class="col-xl-8">
-										<img src="images/AgriEdg.png">
-									</div>
-
-									<div class="col-xl-4">
-
-										<h1>DATA COLLECTION </h1>
-
-										<p> We rely on the use of data collected via sensors,
-											satellite images or drone images </p>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="row cleafix">
-									<div class="col-xl-8">
-										<img src="images/AgriEdgeE2.png" alt="">
-									</div>
-									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
-										<h1>WE TRANSFORM DATA INTO A NUTRIENT</h1>
-										<p>Rationalizing the use of resources in agriculture is the ambition that drives
-											us at
-											AgriEdge. We transform data into decision-making proposals for the farmer in
-											order to
-											maximize his yield.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="oc-item">
-								<div class="row cleafix">
-									<div class="col-xl-8">
-										<img src="images/artem-beliaikin-7OamBrrXY7s-unsplash.jpg">
-									</div>
-									<div class="col-xl-4" style="padding: 20px 0 0 20px;">
-
-										<h1>INCREASE PRODUCTION AND YIELD</h1>
-
-										<p>Our precision irrigation service brings the right amount of water to crops
-											at the right time using sensors, an irrigation model and a
-											user-friendly mobile application.</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					</div> <!-- Container End -->
+					<div class="divider"><i class="icon-circle"></i></div>
 				</section>
 
-				<section id="section-work" class="page-section topmargin-lg">
+
+
+
+				<section id="section-work" class="page-section">
 					<div class="container clearfix">
 						<div class="row clearfix">
 							<div class="col-xl-5">
-								
+
 								<div class="heading-block topmargin">
-									
+
 									<h3>SATELLITE IMAGES &amp; DRONES <br> FOR A REASONED FERTILIZATION PROCESS </h3>
 								</div>
 
@@ -255,38 +362,34 @@
 									where, when and how much fertilizer to apply in order to achieve optimal yield while
 									minimizing the cost.
 								</p>
-									<br>
-									<a href="#" 
-									class="button button-desc button-3d button-rounded button-green center">
+								<br>
+								<a href="#" class="button button-desc button-3d button-rounded button-green center">
 									Create a AgriEdge Account<span>
 										Free Forever, Instant Activation</span></a>
 
+								<a href="#app_mobile" class="button button-change button-large
+										 button-rounded nott t300 mt-4 ml-0">
+									<span>View App
+										<i class="icon-line-arrow-right"></i>
+									</span>
+								</a>
 							</div>
-
 							<div class="col-xl-7">
-
 								<div style="position: relative; margin-bottom: -60px;" class="ohidden"
 									data-height-xl="426" data-height-lg="567" data-height-md="470" data-height-md="287"
 									data-height-xs="183">
-
 									<img src="images/services/main-fmobile.png"
 										style="position: absolute; top: 0; left: 0;" data-delay="400" alt="iPad">
 								</div>
-
 							</div>
-
 						</div>
-
 					</div>
-
-					<div class="container clearfix">
-
+					<div id="app_mobile" class="container clearfix">
 						<div class="heading-block topmargin-lg center">
 							<h2>
-
-								PHYTOSANITARY DIAGNOSIS <br> USING YOUR MOBILE PHONE </h2>
+								PHYTOSANITARY DIAGNOSIS USING YOUR MOBILE PHONE
+							</h2>
 						</div>
-
 						<div class="row bottommargin-sm">
 
 							<div class="col-lg-4 col-md-6 bottommargin">
@@ -357,14 +460,9 @@
 							</div>
 
 						</div>
-
 					</div>
 				</section>
-
-				 
-
-
-
+				<div class="line topmargin-lg bottommargin-lg"></div>
 				<section id="section-services" class="page-section">
 
 					<div class="section topmargin nobottommargin nobottomborder">
@@ -472,10 +570,10 @@
 						</div>
 					</div>
 				</section>
-
+				<div class="line topmargin-lg bottommargin-lg"></div>
 				<section id="section-Sponsors" class="page-section">
 
-					<div class="content-wrap">
+					<div class="container clearfix">
 
 						<ul id="myTab2" class="nav nav-pills boot-tabs  nav-fill">
 							<li class="nav-item">
@@ -564,74 +662,119 @@
 					</div>
 				</section>
 
-				<div class="content-wrap">
+				<div class="line topmargin-lg bottommargin-lg"></div>
 
-					<div class="section topmargin-sm footer-stick">
+				<div id="section-contact" class="page-section">
 
-						<h4 class="uppercase center">What <span>Clients</span> Say?</h4>
+					<div class="container clearfix">
+						<h1 class="bottommargin">Get in Touch.</h1>
 
-						<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
-							<div class="flexslider">
-								<div class="slider-wrap">
-									<div class="slide">
-										<div class="testi-image">
-											<a href="#"><img src="images/mohamed.png" alt="Customer Testimonails"></a>
+						<div class="row clearfix">
+
+							<div class="col-lg-8">
+
+								<div class="contact-widget">
+
+									<div class="contact-form-result"></div>
+
+									<form class="nobottommargin" id="template-contactform" name="template-contactform"
+										action="include/sendemail.php" method="post">
+
+										<div class="form-process"></div>
+
+										<div class="col_half">
+											<input type="text" id="template-contactform-name"
+												name="template-contactform-name" value=""
+												class="sm-form-control border-form-control required"
+												placeholder="Name" />
 										</div>
-										<div class="testi-content">
-											<p>Similique fugit repellendus expedita excepturi iure perferendis provident
-												quia eaque. Repellendus, vero numquam?</p>
-											<div class="testi-meta">
-												Steve Jobs
-												<span>Apple Inc.</span>
-											</div>
+										<div class="col_half col_last">
+											<input type="email" id="template-contactform-email"
+												name="template-contactform-email" value=""
+												class="required email sm-form-control border-form-control"
+												placeholder="Email Address" />
 										</div>
-									</div>
+
+										<div class="clear"></div>
+
+										<div class="col_full">
+											<input type="text" id="template-contactform-subject"
+												name="template-contactform-subject" value=""
+												class="required sm-form-control border-form-control"
+												placeholder="Subject" />
+										</div>
+
+										<div class="col_full">
+											<textarea class="required sm-form-control border-form-control"
+												id="template-contactform-message" name="template-contactform-message"
+												rows="7" cols="30" placeholder="Your Message"></textarea>
+										</div>
+
+										<div class="col_full">
+											<button class="button button-black noleftmargin topmargin-sm" type="submit"
+												id="template-contactform-submit" name="template-contactform-submit"
+												value="submit">Send Message</button>
+										</div>
+
+										<div class="clear"></div>
+
+										<div class="col_full hidden">
+											<input type="text" id="template-contactform-botcheck"
+												name="template-contactform-botcheck" value="" class="sm-form-control" />
+										</div>
+
+									</form>
 
 								</div>
+
 							</div>
+
+							<div class="col-lg-4">
+								<h4>Headquarters.</h4>
+
+								<div style="font-size: 16px; line-height: 1.7;">
+									<address style="line-height: 1.7;">
+										795 Folsom Ave, Suite 600<br>
+										San Francisco, CA 94107<br>
+									</address>
+
+									<div class="clear topmargin"></div>
+
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+								</div>
+							</div>
+
 						</div>
-
 					</div>
-				</div>
 
+				</div>
 
 			</div>
 		</section><!-- #content end -->
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="White">
+		<footer id="footer" class="noborder bg-white">
+
+
+
 			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
+				============================================= -->
+			<div id="copyrights" style="background: url('demos/seo/images/hero/footer.svg')
+				 no-repeat top center; background-size: cover; padding-top: 70px;">
 
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2019 All Rights Reserved by Agriedge.<br>
-					</div>
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
+						Copyrights &copy; 2019 All Rights Reserved by Agri Edge.<br>
 
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
-						</div>
-
-						<div class="clear"></div>
-						<i class="icon-envelope2"></i> info@gmail.com <span class="middot">&middot;</span> <i
-							class="icon-headphones"></i> +212 0628-616161 <span class="middot">&middot;</span>
 					</div>
+
 				</div>
+
 			</div><!-- #copyrights end -->
+
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
@@ -654,6 +797,20 @@
 	<!-- scripts -->
 	<script src="particles.js"></script>
 	<script src="js/app.js"></script>
+
+
+	<script>
+		function click_fertilisation() {
+			document.getElementById("nav-food-tab").click();
+		}
+		function click_irrigton() {
+			document.getElementById("nav-travel-tab").click();
+		}
+		function click_desease() {
+			document.getElementById("nav-fashion-tab").click();
+		}
+	</script>
+
 
 	<script>
 
