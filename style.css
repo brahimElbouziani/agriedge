@@ -1016,7 +1016,7 @@ html[xmlns] .slider-wrap {display: block;}
 body.stretched #header.full-header .container {
 	width: 100%;
 	max-width: none;
-	padding: 0 30px;
+	padding: 0 0px;
 }
 
 #header.transparent-header.full-header #header-wrap { border-bottom: 1px solid rgba(0,0,0,0.1); }

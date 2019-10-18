@@ -63,9 +63,8 @@
 							<div class="container clearfix">
 								<div id="particles-js">
 									<div class="slider-caption slider-caption">
-										<h2> WE
-											TRANSFORM AGRICULTURAL DATA INTO
-											NUTRIENTS
+										<h2> WE TRANSFORM AGRICULTURAL DATA INTO
+											A NUTRIENTS
 										</h2>
 									</div>
 								</div>
@@ -84,8 +83,8 @@
 							</a>
 
 							<div class="video-wrap">
-								<video id="slide-video" poster="images/videos/image_vedio.jpg" preload="auto" 
-									autoplay muted>
+								<video id="slide-video" poster="images/videos/image_vedio.jpg" preload="auto" autoplay
+									muted>
 									<source src='images/videos/vedio_web.webm' type='video/webm' />
 									<source src='images/videos/vedio_agri_compres.mp4' type='video/mp4' />
 								</video>
@@ -122,7 +121,9 @@
 		<header id="header" class="full-header">
 			<div id="header-wrap">
 				<div class="container clearfix">
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<div id="primary-menu-trigger">
+						<i class="icon-reorder"></i>
+					</div>
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
@@ -141,11 +142,30 @@
 							<li><a href="#" data-href="#section-about">
 									<div>About</div>
 								</a></li>
-							<li><a href="#" data-href="#section-work">
-									<div>Services</div>
-								</a></li>
+							<li>
+								<a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">
+									Services
+								</a>
+								<ul class="dropdown-menu" data-easing="swing" data-speed="1200" role="menu">
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#" data-href="#section-irrigation">
+										<img src="images/plant_irrigation_icon.png">&nbsp; Precision irrigation
+									</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#" data-href="#section_plateform">
+										<img src="images/fertilizer_icon1.png">&nbsp;Reasoned fertilization
+									</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#" data-href="#section_app_mobile">
+										<img src="images/leaf_1.png">
+										&nbsp;Phytosanitary diagnosis
 
-							<li><a href="#" data-href="#section-services">
+									</a>
+								</ul>
+
+							</li>
+
+							<li><a href="#" data-href="#section-medias">
 									<div>Media</div>
 								</a></li>
 							<li>
@@ -192,14 +212,15 @@
 										<ul class="nav nav-sm navbar-nav mr-md-auto mr-lg-0 mt-2 mt-lg-0 align-self-end"
 											role="tablist">
 											<li class="nav-item">
-												<a class="nav-link bg-color-travel active" id="nav-outdoor-tab"
+												<a class="nav-link bg-color-food active" id="nav-outdoor-tab"
 													data-toggle="tab" href="#nav-outdoor" role="tab"
 													aria-selected="true">
-													<img src="images/logo_x.png">
+													<h1>All </h1>
 												</a>
 											</li>
+
 											<li class="nav-item">
-												<a class="nav-link bg-color-sports" id="nav-food-tab" data-toggle="tab"
+												<a class="nav-link bg-color-food" id="nav-food-tab" data-toggle="tab"
 													href="#nav-food" role="tab" aria-selected="false">
 													<h1>Fertilization </h1>
 												</a>
@@ -211,7 +232,7 @@
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link bg-color-tech" id="nav-fashion-tab" data-toggle="tab"
+												<a class="nav-link bg-color-food" id="nav-fashion-tab" data-toggle="tab"
 													href="#nav-fashion" role="tab" aria-selected="false">
 													<h1> Disease</h1>
 												</a>
@@ -239,22 +260,24 @@
 											</article>
 											<div class="owl-carousel carousel-widget"> </div>
 
-											<a onclick="click_fertilisation()"
-												class="button button-border button-rounded button-fill button-amber">
-												<span>
-													<img src="images/fertilizer_icon.png">
-													Reasoned Fertilization</span>
-											</a>
-											<a onclick="click_irrigton()"
-												class="button button-border button-rounded button-fill button-aqua">
-												<span>
-													<img src="images/plant_x.png">
-													Precision Irrigation</span></a>
-											<a onclick="click_desease()"
-												class="button button-border button-rounded button-fill button-blue">
-												<span>
-													<img src="images/leaf.png">
-													Disease Identification</span></a>
+											<div class="container clearfix ">
+												<a onclick="click_fertilisation()"
+													class="button button-border button-rounded button-fill button-amber">
+													<span>
+														<img src="images/fertilizer_icon1.png">
+														Reasoned Fertilization</span>
+												</a>
+												<a onclick="click_irrigton()"
+													class="button button-border button-rounded button-fill button-aqua">
+													<span>
+														<img src="images/plant_irrigation_icon.png">
+														Precision Irrigation</span></a>
+												<a onclick="click_desease()"
+													class="button button-border button-rounded button-fill button-blue">
+													<span>
+														<img src="images/leaf_1.png">
+														Disease Identification</span></a>
+											</div>
 										</div>
 									</div>
 									<!-- Tab Content 2
@@ -353,53 +376,139 @@
 
 				</section>
 
+				<section id="section-irrigation" class="page-section">
 
-				<section id="section-work" class="page-section">
+					<div class="container clearfix ">
+						<div class="heading-block topmargin-lg center">
+							<h2>
+								PRECISION IRRIGATION SERVICES
+							</h2>
+						</div>
+						<div class="row bottommargin-sm">
+							<div class="col-lg-4 col-md-6 bottommargin">
+
+								<div class="feature-box fbox-right topmargin" data-animate="fadeIn">
+									<div class="fbox-icon">
+										<a href="#"> <i class="icon-diamond"
+												style=" background-color: #34b0ee;"></i></a>
+									</div>
+
+									<h3> Protect water resources</h3>
+									<p> Pests infecting their crops </p>
+								</div>
+
+								<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-graph" style=" background-color: #34b0ee;"></i></a>
+									</div>
+									<h3>Improve crop yields</h3>
+									<p>offre technical information about disease
+									</p>
+								</div>
+
+								<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
+
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-line-paper"
+												style=" background-color: #34b0ee;"></i></a>
+									</div>
+									<h3>Simplify irrigation management</h3>
+									<p>application of artificial intelligence in image processing. </p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 d-md-none d-lg-block bottommargin center">
+								<div id="oc-portfolio-sidebar" class="owl-carousel carousel-widget" 
+								data-items="1"
+									data-margin="10" data-loop="true" data-nav="false" data-autoplay="4000">
+
+									<div class="col-lg-9  d-lg-block center" style="margin-left: 55px;">
+										<img src="images/app_irrigation/creat_account.png">
+									</div>
+									<div class="col-lg-9  d-lg-block center" style="margin-left: 55px;">
+										<img src="images/app_irrigation/selection_passrel.png">
+									</div>
+									<div class="col-lg-9  d-lg-block center" style="margin-left: 55px;">
+										<img src="images/app_irrigation/app_detail_passrel.png">
+									</div>
+									<div id="irrig1" class="col-lg-9  d-lg-block center" style="margin-left: 55px;">
+										<img src="images/app_irrigation/resulatat_app.png">
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6 bottommargin">
+
+								<div class="feature-box topmargin" data-animate="fadeIn">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-line-drop"
+												style=" background-color: #34b0ee;"></i></a>
+									</div>
+									<h3>Optimze irrigation water</h3>
+									<p>we can identify the stage of diseases .</p>
+								</div>
+
+								<div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-money-check-alt"
+												style=" background-color: #34b0ee;"></i></a>
+									</div>
+
+									<h3>Reduce production costs </h3>
+									<p> Preventive methods to use &amp; efficiency tests
+									</p>
+								</div>
+
+								<div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-leaf" style=" background-color: #34b0ee;"></i></a>
+									</div>
+									<h3>Right amounts of water </h3>
+									<p> Using data like meteo in precision agricole
+									</p>
+								</div>
+							</div>
+						</div>
+				</section>
+
+				<div class="line"></div>
+
+				<section id="section_plateform" class="page-section">
 
 					<div class="container clearfix">
 						<div class="row clearfix">
 							<div class="col-xl-5">
-
 								<div class="heading-block topmargin">
-
-									<h3>SATELLITE IMAGES &amp; DRONES <br> FOR A REASONED FERTILIZATION PROCESS </h3>
+									<h3>SATELLITE IMAGES &amp; DRONES <br> FOR A REASONED FERTILIZATION PROCESS
+									</h3>
 								</div>
-
 								<p class="lead">Our service allows the farmer to manage his fertilization in an
 									efficient way by knowing
-									where, when and how much fertilizer to apply in order to achieve optimal yield while
+									where, when and how much fertilizer to apply in order to achieve optimal yield
+									while
 									minimizing the cost.
 								</p>
 								<br>
 								<a href="#" class="button button-desc button-3d button-rounded button-green center">
 									Create a AgriEdge Account<span>
 										Free Forever, Instant Activation</span></a>
-
-								<a href="#section_app_mobile" data-easing="easeInOutExpo" data-speed="1500" class="button button-change button-large
-										 button-rounded nott t300 mt-4 ml-0">
-									<span>View App
-										<i class="icon-line-arrow-right"></i>
-									</span>
-								</a>
 							</div>
-
 							<div class="col-xl-7">
 								<div style="position: relative; margin-bottom: -60px;" class="ohidden"
 									data-height-xl="426" data-height-lg="567" data-height-md="470" data-height-md="287"
 									data-height-xs="183">
-									<img src="images/services/main-fmobile.png"
-										style="position: absolute; top: 0; left: 0;" data-delay="400" alt="iPad">
+									<img src="images/platform_fertile.png" style="position: absolute; top: 0; left: 0;"
+										data-delay="400" alt="iPad">
 								</div>
 							</div>
 						</div>
 					</div>
+
 				</section>
-
+				<div class="line"></div>
 				<section id="section_app_mobile" class="page-section">
+
 					<div class="container clearfix ">
-
-						<div class="divider divider-short "><i class="icon-screen"></i></div>
-
 						<div class="heading-block topmargin-lg center">
 							<h2>
 								PHYTOSANITARY DIAGNOSIS USING YOUR MOBILE PHONE
@@ -433,7 +542,7 @@
 										<a href="#"><i class="icon-line2-camera"></i></a>
 									</div>
 									<h3>Mathematical modeling</h3>
-									<p>application of artificial intelligence in image processing. </p>
+									<p>artificial intelligence in image processing. </p>
 								</div>
 							</div>
 
@@ -457,7 +566,7 @@
 									</div>
 
 
-									<h3>The appropriate corrective </h3>
+									<h3>Appropriate corrective </h3>
 									<p> Preventive methods to use &amp; efficiency tests
 									</p>
 								</div>
@@ -476,9 +585,10 @@
 						</div>
 				</section>
 
-				<div class="divider"><i class="icon-circle"></i></div>
+				<div class="line"></div>
+				<div class="clear"></div>
 
-				<section id="section-services" class="page-section">
+				<section id="section-medias" class="page-section">
 
 					<div class="section topmargin nobottommargin nobottomborder">
 						<div class="container clearfix">
@@ -516,14 +626,13 @@
 
 								<div class="entry clearfix">
 									<div class="entry-image">
-
 										<img class="image_fade" src="images/talk1.png"
 											alt="Standard Post with Image"></a>
 									</div>
 									<div class="entry-title">
 										<h2><a
 												href="https://www.agrimaroc.ma/ocp-um6p-capteurs-connectes-piloter-l-irrigation/">
-												La business Unit de l’OCP </a></h2>
+												business Unit de l’OCP </a></h2>
 									</div>
 									<ul class="entry-meta clearfix">
 										<li><i class="icon-calendar3"></i> 08th Mai 2019 </li>
@@ -581,18 +690,20 @@
 									</div>
 								</div>
 
-							</div><!-- #Services end -->
+							</div><!-- #medais end -->
 						</div>
 					</div>
 				</section>
 
-				<div class="divider"><i class="icon-circle"></i></div>
+				<div class="line"></div>
+				<div class="clear"></div>
 
 				<section id="section-Sponsors" class="page-section">
 
+
 					<div class="container clearfix">
 
-						<ul id="myTab2" class="nav nav-pills boot-tabs  nav-fill">
+						<ul id="myTab2" class="nav nav-tabs nav-fill  navbar-light bg-light">
 							<li class="nav-item">
 								<a class="nav-link active" href="#OCP" data-toggle="tab">
 									<img src="images/Logo-OCP-Quadri.png">
@@ -600,15 +711,20 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#Um6p" data-toggle="tab">
-									<img src="images/logo_um6p.png">
+									<img src="images/logo-um6p1.png">
 
 								</a>
 							</li>
+
 						</ul>
 						<div class="clear"></div>
+
 						<div id="bitcoin-tab-contents" class="tab-content">
+
 							<div class="tab-pane fade show active" id="OCP">
+
 								<div class="container clearfix">
+
 									<div class="col_one_third portfolio-single-content nobottommargin">
 										<div class="fancy-title title-bottom-border">
 											<h2>A KEY INTERNATIONAL PLAYER IN THE FERTILIZER MARKET
@@ -736,10 +852,8 @@
 											<select id="template-contactform-service"
 												name="template-contactform-service" class="sm-form-control">
 												<option value="">-- Select One --</option>
-												<option value="Wordpress">Wordpress</option>
-												<option value="PHP / MySQL">PHP / MySQL</option>
-												<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-												<option value="Graphic Design">Graphic Design</option>
+												<option value="Wordpress"> Information </option> 
+											
 											</select>
 										</div>
 
@@ -757,16 +871,8 @@
 										</div>
 
 										<div class="col_full">
-
-											<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-											<div class="g-recaptcha"
-												data-sitekey="6LfijgUTAAAAACPt-XfRbQszAKAJY0yZDjjhMUQT"></div>
-
-										</div>
-
-										<div class="col_full">
 											<button name="submit" type="submit" id="submit-button" tabindex="5"
-												value="Submit" class="button button-3d nomargin">Submit Comment</button>
+												value="Submit" class="button button-3d nomargin">Contact us</button>
 										</div>
 
 									</form>
@@ -935,6 +1041,7 @@
 			jQuery(this).toggleClass('video-muted');
 		});
 	</script>
+
 </body>
 
 </html>
