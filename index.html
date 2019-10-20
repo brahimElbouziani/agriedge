@@ -892,23 +892,25 @@
 							<div class="col_half col_last">
 
 								<div class="mapouter">
-									<div class="gmap_canvas"><iframe width="600" height="410" id="gmap_canvas"
+									<div class="gmap_canvas"><iframe width="500" height="410" id="gmap_canvas"
 											src="https://maps.google.com/maps?q=um6p&t=&z=9&ie=UTF8&iwloc=&output=embed"
 											frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-											href="https://usave.co.uk">usave</a></div>
+											href="https://usave.co.uk">usave</a>
+									</div>
 									<style>
+							 
 										.mapouter {
 											position: relative;
 											text-align: right;
 											height: 410px;
-											width: 600px;
+											width: 500px;
 										}
 
 										.gmap_canvas {
 											overflow: hidden;
 											background: none !important;
 											height: 410px;
-											width: 600px;
+											width: 500px;
 										}
 									</style>
 								</div>
@@ -986,37 +988,7 @@
 
 	<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
 	</script>
-
-	<script>
-
-		jQuery('#google-map').gMap({
-
-			address: 'Melbourne, Australia',
-			maptype: 'ROADMAP',
-			zoom: 14,
-			markers: [
-				{
-					address: "Melbourne, Australia",
-					html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
-					icon: {
-						image: "images/icons/map-icon-red.png",
-						iconsize: [32, 39],
-						iconanchor: [32, 39]
-					}
-				}
-			],
-			doubleclickzoom: false,
-			controls: {
-				panControl: true,
-				zoomControl: true,
-				mapTypeControl: true,
-				scaleControl: false,
-				streetViewControl: false,
-				overviewMapControl: false
-			}
-
-		});
-	</script>
+ 
 	<script>
 		// Owl Carousel Scripts
 		$('#oc-features').owlCarousel({
