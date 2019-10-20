@@ -46,15 +46,83 @@
 	<link rel="icon" href="images/logo.ico" type="image/x-icon">
 </head>
 
-<body class="stretched">
+<body class="stretched sticky-responsive-pagemenu">
 
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
-		<div id="home" class="page-section" style="position:absolute;top:0;left:0;width:100%;height:200px;z-index:-2;">
-		</div>
-		<section id="slider" class="slider-element slider-parallax full-screen with-header 
-		swiper_wrapper clearfix" data-autoplay="10000" data-speed="650" data-loop="true">
+		<!-- Header
+		============================================= -->
+		<header id="header" class="page-section full-header">
+			<div id="header-wrap">
+				<div class="container clearfix">
+					<div id="primary-menu-trigger">
+						<i class="icon-reorder"></i>
+					</div>
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo"><img src="images/logo.png"></a>
+						<a href="index.html" class="retina-logo"><img src="images/logo@2x.png" "></a>
+					</div>
+					<!-- #logo end -->
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+							<ul   class="one-page-menu" 	 data-easing="swing" data-speed="1250" data-offset="160">
+								<li><a href="#" data-href="#slider">
+										<div>Home</div>
+									</a></li>
+								<li><a href="#" data-href="#section-about">
+										<div>About</div>
+									</a></li>
+									<li>
+											<a >
+												<div  href="#" data-href="#section-irrigation" > Services </div>
+											</a>
+											<ul>
+												<li> <a href="#" data-href="#section-irrigation">
+														<div><img src="images/plant_irrigation_icon.png">&nbsp; Precision
+															irrigation</div>
+													</a>
+												</li>
+		
+												<li> <a href="#" data-href="#section_plateform">
+														<img src="images/fertilizer_icon1.png">&nbsp;Reasoned fertilization
+													</a>
+												</li>
+		
+												<li> <a href="#" data-href="#section_app_mobile">
+														<img src="images/leaf_1.png">
+														&nbsp;Phytosanitary diagnosis
+													</a>
+												</li>
+		
+											</ul>
+		
+										</li>
+								<li><a href="#" data-href="#section-medias">
+										<div>Media</div>
+									</a></li>
+								<li>
+									<a href="#" data-href="#section-Sponsors">
+										<div>Sponsors</div>
+									</a></li>
+								<li>
+									<a href="#" data-href="#section_contact">
+										<div>Contact Us</div>
+									</a></li>
+							
+							</ul>
+							</nav><!-- #primary-menu end -->
+					</div>
+				</div>
+
+		</header><!-- #header end -->
+		<section id="slider"
+		 class="slider-element slider-parallax full-screen with-header 
+		swiper_wrapper clearfix" data-autoplay="13000" data-speed="650" 
+		data-loop="true">
 			<div class="slider-parallax-inner">
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
@@ -115,75 +183,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="full-header">
-			<div id="header-wrap">
-				<div class="container clearfix">
-					<div id="primary-menu-trigger">
-						<i class="icon-reorder"></i>
-					</div>
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="index.html" class="standard-logo"><img src="images/logo.png"  ></a>
-						<a href="index.html" class="retina-logo"><img src="images/logo@2x.png"  "></a>
-					</div>
-					<!-- #logo end -->
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
-
-						<ul class="one-page-menu" data-easing="swing" data-speed="1200">
-							<li><a href="#" data-href="#home">
-									<div>Home</div>
-								</a></li>
-							<li><a href="#" data-href="#section-about">
-									<div>About</div>
-								</a></li>
-							<li>
-								<a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">
-									Services
-								</a>
-								<ul class="dropdown-menu" data-easing="swing" data-speed="1200" role="menu">
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#" data-href="#section-irrigation">
-										<img src="images/plant_irrigation_icon.png">&nbsp; Precision irrigation
-									</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#" data-href="#section_plateform">
-										<img src="images/fertilizer_icon1.png">&nbsp;Reasoned fertilization
-									</a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#" data-href="#section_app_mobile">
-										<img src="images/leaf_1.png">
-										&nbsp;Phytosanitary diagnosis
-
-									</a>
-								</ul>
-
-							</li>
-
-							<li><a href="#" data-href="#section-medias">
-									<div>Media</div>
-								</a></li>
-							<li>
-								<a href="#" data-href="#section-Sponsors">
-									<div>Sponsors</div>
-								</a></li>
-							<li>
-								<a href="#" data-href="#section_contact">
-									<div>Contact Us</div>
-								</a></li>
-						</ul>
-					</nav><!-- #primary-menu end -->
-				</div>
-
-			</div>
-
-		</header><!-- #header end -->
-
 		<div class="clear"></div>
 
 		<!-- Content
@@ -208,33 +207,33 @@
 										<i class="icon-line-menu"></i>
 									</button>
 									<div class="collapse navbar-collapse justify-content-between" id="navbarToggler1">
-										<div></div>
+									<div> </div>
 										<ul class="nav nav-sm navbar-nav mr-md-auto mr-lg-0 mt-2 mt-lg-0 align-self-end"
 											role="tablist">
 											<li class="nav-item">
 												<a class="nav-link bg-color-food active" id="nav-outdoor-tab"
 													data-toggle="tab" href="#nav-outdoor" role="tab"
 													aria-selected="true">
-													<h1>All </h1>
+													<h4>All </h4>
 												</a>
 											</li>
 
 											<li class="nav-item">
 												<a class="nav-link bg-color-food" id="nav-food-tab" data-toggle="tab"
 													href="#nav-food" role="tab" aria-selected="false">
-													<h1>Fertilization </h1>
+													<h4>Fertilization </h4>
 												</a>
 											</li>
 											<li class="nav-item">
 												<a class="nav-link bg-color-food" id="nav-travel-tab" data-toggle="tab"
 													href="#nav-irrigation" role="tab" aria-selected="false">
-													<h1> Irrigation</h1>
+													<h4> Irrigation</h4>
 												</a>
 											</li>
 											<li class="nav-item">
 												<a class="nav-link bg-color-food" id="nav-fashion-tab" data-toggle="tab"
 													href="#nav-fashion" role="tab" aria-selected="false">
-													<h1> Disease</h1>
+													<h4> Disease</h4>
 												</a>
 											</li>
 										</ul>
@@ -363,13 +362,13 @@
 															AgriEdge's scientific platform.
 														</p>
 													</div>
-												</div>	
-													<a href="https://agriad.um6p.ma/"  target="_blank" 
-											class="more-link">Read More</a>
+												</div>
+												<a href="https://agriad.um6p.ma/" target="_blank" class="more-link">Read
+													More</a>
 											</div>
-									
+
 										</div>
-									
+
 									</div>
 
 								</div>
@@ -492,7 +491,8 @@
 									minimizing the cost.
 								</p>
 								<br>
-								<a href="login-register-3.html"  target="_blank" class="button button-desc button-3d button-rounded button-green center">
+								<a href="login-register-3.html" target="_blank"
+									class="button button-desc button-3d button-rounded button-green center">
 									Create a AgriEdge Account<span>
 										Free Forever, Instant Activation</span></a>
 							</div>
