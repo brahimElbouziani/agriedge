@@ -1222,6 +1222,9 @@ pre code {
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
+  @media only screen and (min-width: 768px) {
+    .col-lg-9 {	margin-left: 55px; }
+  }
   .col-lg-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
