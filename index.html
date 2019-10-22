@@ -20,9 +20,10 @@
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" media="screen" href="css/style.css">
 
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
 	<link rel="stylesheet" href="business/business.css" type="text/css" />
 
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+ 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -46,21 +47,23 @@
 	<link rel="icon" href="images/logo.ico" type="image/x-icon">
 </head>
 
-<body class="stretched sticky-responsive-pagemenu">
+<body  class="stretched rtl">
 
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
+			<div id="header-trigger">
+					<i class="icon-line-menu"></i><i class="icon-line-cross"></i></div>
 		<!-- Header
 		============================================= -->
-		<header id="header" class="page-section full-header">
+		<header id="header"  class="transparent-header full-header" data-sticky-class="not-dark">
 			<div id="header-wrap">
 				<div class="container clearfix">
 					<div id="primary-menu-trigger">
 						<i class="icon-reorder"></i>
 					</div>
 					<!-- Logo
-					============================================= -->
+					====================l'imprimante========================= -->
 					<div id="logo">
 						<a href="index.html" class="standard-logo"><img src="images/logo.png"></a>
 						<a href="index.html" class="retina-logo"><img src="images/logo@2x.png" "></a>
@@ -69,7 +72,7 @@
 					<!-- Primary Navigation
 					============================================= -->
 					<nav id="primary-menu">
-							<ul class="one-page-menu" data-easing="swing" data-speed="1250" data-offset="160">
+							<ul class="one-page-menu" data-easing="swing"  >
 								<li><a href="#" data-href="#slider">
 										<div>Home</div>
 									</a>
@@ -82,7 +85,7 @@
 									<a href="#">
 										<div> Services </div>
 									</a>
-									<ul>
+									<ul  >
 										<li> <a href="#" data-href="#section-irrigation">
 												<div><img src="images/plant_irrigation_icon.png">&nbsp; Precision
 													irrigation</div>
@@ -96,7 +99,7 @@
 
 										<li> <a href="#" data-href="#section_app_mobile">
 												<img src="images/leaf_1.png">
-												&nbsp;Phytosanitary diagnosis
+												&nbsp;Phytosanitary 
 											</a>
 										</li>
 
@@ -121,10 +124,10 @@
 				</div>
 
 		</header><!-- #header end -->
-		<section id="slider" class="slider-element slider-parallax full-screen with-header 
-		swiper_wrapper clearfix" data-autoplay="13000" data-speed="650" data-loop="true">
+		<section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix">
 			<div class="slider-parallax-inner">
 				<div class="swiper-container swiper-parent">
+					
 					<div class="swiper-wrapper">
 						<div class="swiper-slide dark" style="background-image: url('images/AgriEdge _PM.png');;
 							background-position: center top;">
@@ -138,48 +141,7 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="swiper-slide dark">
-							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center">
-								</div>
-							</div>
-
-							<a href="#" id="video-slider-mute">
-								<i class="icon-line2-volume-off"></i>
-								<i class="icon-line2-volume-2"></i>
-							</a>
-
-							<div class="video-wrap">
-								<video id="slide-video" poster="images/videos/image_vedio.jpg" preload="auto" autoplay
-									muted>
-									<source src='images/videos/vedio_web.webm' type='video/webm' />
-									<source src='images/videos/vedio_agri_compres.mp4' type='video/mp4' />
-								</video>
-
-							</div>
-						</div>
-
-
-						<div class="swiper-slide dark" style="background-image: url('images/bence-balla-schottner-G8UGLMr76sQ-unsplash.jpg');
-							 background-position: center top;">
-							<div class="container clearfix">
-								<div data-animate="fadeIn" class="slider-caption">
-									<h2>Rationalizing the use of resources in agriculture </h3>
-										<p>
-											is the ambition that drives us at AgriEdge.
-											<br> We transform data into decision-making proposals for the farmer in
-											order to maximize his yield.
-										</p>
-								</div>
-							</div>
-						</div>
 					</div>
-
-					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
-
-					<div class="swiper-pagination"></div>
 				</div>
 			</div>
 		</section>
@@ -331,7 +293,6 @@
 									</div>
 								</div><!-- Tab End -->
 							</div>
-
 							<!-- Top Sidebar Area
 							============================================= -->
 							<div class="col-lg-4 sticky-sidebar-wrap mt-5 mt-lg-0">
@@ -374,14 +335,14 @@
 								</div>
 							</div> <!-- Sidebar End -->
 						</div>
+						<div class="line"></div>
 					</div> <!-- Container End -->
-
 				</section>
-				<div class="line"></div>
+	
 
 				<section id="section-irrigation" class="page-section">
 					<div class="container clearfix ">
-						<div class="heading-block  center">
+						<div class="heading-block center">
 							<h2>
 								PRECISION IRRIGATION SERVICES
 							</h2>
@@ -887,14 +848,13 @@
 							<div class="col_half col_last">
 
 								<div class="mapouter">
-									<div class="gmap_canvas"><iframe width="600" height="410" id="gmap_canvas"
+									<div class="gmap_canvas"><iframe width="500" height="410" id="gmap_canvas"
 											src="https://maps.google.com/maps?q=um6p&t=&z=9&ie=UTF8&iwloc=&output=embed"
 											frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
 											href="https://usave.co.uk">usave</a>
 									</div>
 									<style>
-									
-									@media only screen and (orientation: landscape) {
+										@media only screen and (orientation: landscape) {
 											.mapouter {
 												position: relative;
 												text-align: right;
@@ -909,23 +869,22 @@
 												width: 300px;
 											}
 										}
+
 										@media only screen and (min-width: 768px) {
 											.mapouter {
 												position: relative;
 												text-align: right;
 												height: 410px;
-												width: 600px;
+												width: 500px;
 											}
 
 											.gmap_canvas {
 												overflow: hidden;
 												background: none !important;
 												height: 410px;
-												width: 600px;
+												width: 500px;
 											}
 										}
-
-										
 									</style>
 								</div>
 							</div><!-- Google Map End -->
