@@ -1828,6 +1828,10 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  .lead {
+    font-size: 0.7rem;
+    font-weight: 100;
+  }
 }
 
 @media (max-width: 991.98px) {
