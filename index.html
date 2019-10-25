@@ -37,7 +37,25 @@
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
-
+	<style>
+		#header .button {
+			margin: 20px 10px;
+			-webkit-transition: all .4s ease;
+			-o-transition: all .4s ease;
+			transition: all .4s ease;
+		}
+		
+		body.top-search-open #header .button { opacity: 0; }
+		
+		#header.sticky-header:not(.static-sticky) .button {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		
+		@media (max-width: 991px) {
+			#header { text-align: center; }
+		}
+		</style>
 	<!-- Document Title
 	============================================= -->
 	<title>Agri Edge</title>
@@ -94,9 +112,15 @@
 								<li>
 									<a href="#" data-href="#section_contact">
 										<div>Contact Us</div>
-									</a></li>
+									</a> </li>
+									<a href="/signin" class="button button-3d button-rounded" >
+										AgriEdge Platform</a>
+
+								 
 							</ul>
+							 
 							</nav><!-- #primary-menu end -->
+							
 					</div>
 				</div>
 
@@ -558,7 +582,7 @@
 												minimizing the cost.
 											</p>
 											<br>
-											<a href="login-register-3.html" target="_blank" class="button button-desc button-3d button-rounded 
+											<a href="/signin"  class="button button-desc button-3d button-rounded 
 												button-green center">
 												ACCESS TO SERVICE</a>
 										</div>
