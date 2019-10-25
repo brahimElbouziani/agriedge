@@ -406,10 +406,13 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .button.button-border.button-fill {
+	
 	overflow: hidden;
 	transform-style: preserve-3d;
 	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 	-webkit-backface-visibility: hidden;
+
+	
 }
 
 .button.button-border.button-fill span { position: relative; }
@@ -621,6 +624,11 @@ body:not(.device-touch) .button.button-full strong {
 .button-border.button-amber {
 	color: #EB9C4D;
 	border-color: #EB9C4D;
+	
+	.btn @media(max-width:768px) { 
+		font-weight: 50;
+	
+	}
 }
 
 .button-black { background-color: #111; }

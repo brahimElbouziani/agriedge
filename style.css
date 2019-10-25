@@ -6684,6 +6684,13 @@ body:not(.device-touch) .button {
  	font-weight: 700;
 	text-shadow: none;
 }
+ 
+
+@media   (max-width: 700.98px) {
+	.button.button-border {
+		font-size: 0;
+	}
+}
 
 .button.button-border-thin {
 	border-width: 1px;
