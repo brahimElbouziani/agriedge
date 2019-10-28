@@ -37,7 +37,17 @@
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
 	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
 	<style>
+		#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
 		#header .button {
 			margin: 20px 10px;
 			-webkit-transition: all .4s ease;
@@ -199,23 +209,13 @@
 												aria-labelledby="headingOne">
 												<article class="ipost">
 													<div class="entry-image mb-3">
-														<a href="#" onclick="lightbox_open();">
-															<img src="images/all_shema.png"></a>
-
-														<div id="light">
-															<a class="boxclose" id="boxclose"
-																onclick="lightbox_close();"></a>
-															<video scroll="no" id="VisaChipCardVideo" width="600"
-																controls>
-																<source src="images/videos/vedio_qualite.mp4"
-																	type="video/mp4">
-															</video>
-														</div>
-
-														<div id="fade" onClick="lightbox_close();"></div>
-														<div class="entry-categories">
-														</div>
+														<a   href="#headerPopup"  target="_blank" id="headerVideoLink" 
+													  class="btn btn-outline-danger popup-modal">
+															<img src="images/all_shema.png"></a> 
 													</div>
+													<div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+															<iframe width="560" height="315" src="https://www.youtube.com/embed/1seD9TLeALI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													  </div>
 												</article>
 
 											</div>
@@ -1003,7 +1003,8 @@
 	<!-- scripts -->
 	<script src="particles.js"></script>
 	<script src="js/app.js"></script>
-   
+ 
+
 	<script>
 		window.document.onkeydown = function (e) {
 			if (!e) {
@@ -1055,7 +1056,6 @@
 		}
 	</script>
 
-
 	<script>
 		// Owl Carousel Scripts
 		$('#oc-features').owlCarousel({
@@ -1086,6 +1086,13 @@
 			jQuery(this).toggleClass('video-muted');
 		});
 	</script>
- 
 
+<script>
+$(document).ready(function() {
+  $('#headerVideoLink').magnificPopup({
+    type:'inline',
+    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  });         
+});
+</script>
 </html>
