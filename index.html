@@ -44,18 +44,22 @@
 			-o-transition: all .4s ease;
 			transition: all .4s ease;
 		}
-		
-		body.top-search-open #header .button { opacity: 0; }
-		
+
+		body.top-search-open #header .button {
+			opacity: 0;
+		}
+
 		#header.sticky-header:not(.static-sticky) .button {
 			margin-top: 10px;
 			margin-bottom: 10px;
 		}
-		
+
 		@media (max-width: 991px) {
-			#header { text-align: center; }
+			#header {
+				text-align: center;
+			}
 		}
-		</style>
+	</style>
 	<!-- Document Title
 	============================================= -->
 	<title>Agri Edge</title>
@@ -71,7 +75,7 @@
 			<i class="icon-line-menu"></i><i class="icon-line-cross"></i></div>
 		<!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+		<header id="header" class="transparent-header  " data-sticky-class="not-dark">
 			<div id="header-wrap">
 				<div class="container clearfix">
 					<div id="primary-menu-trigger">
@@ -113,14 +117,14 @@
 									<a href="#" data-href="#section_contact">
 										<div>Contact Us</div>
 									</a> </li>
-									<a href="/signin" class="button button-3d button-rounded" >
-										AgriEdge Platform</a>
+								<a href="/signin" class="button button-3d button-rounded">
+									AgriEdge Platform</a>
 
-								 
+
 							</ul>
-							 
+
 							</nav><!-- #primary-menu end -->
-							
+
 					</div>
 				</div>
 
@@ -164,25 +168,22 @@
 									<h4 class="mb-0 pr-2 ls1 uppercase t700">
 										HOW WE TRANSFORM DATA INTO A NUTRIENT ?
 									</h4>
-									<button class="navbar-toggler" type="button" data-toggle="collapse"
-										data-target="#navbarToggler1" aria-controls="navbarToggler1"
-										aria-expanded="false" aria-label="Toggle navigation">
+									<button class="navbar-toggler" style="    border-color: white;" type="button"
+										data-toggle="collapse" data-target="#navbarToggler1"
+										aria-controls="navbarToggler1" aria-expanded="false"
+										aria-label="Toggle navigation">
 										<i class="icon-line-menu"></i>
 									</button>
 									<div class="collapse navbar-collapse justify-content-between" id="navbarToggler1">
 										<div> </div>
-										<ul class="nav nav-sm navbar-nav mr-md-auto mr-lg-0 mt-2 mt-lg-0 align-self-end"
-											role="tablist">
 
-											<li class="nav-item">
-												<a class="nav-link bg-color-food active" id="nav-outdoor-tab"
-													aria-selected="true" data-toggle="collapse" href="#collapseOne"
-													aria-expanded="true" aria-controls="collapseOne"
-													onclick="click_desease()">
-													<h4>All </h4>
-												</a>
-											</li>
-										</ul>
+										<a class="nav-link bg-color-food active" id="nav-outdoor-tab"
+											aria-selected="true" data-toggle="collapse" href="#collapseOne"
+											aria-expanded="true" aria-controls="collapseOne" onclick="click_desease()">
+											<h4>All </h4>
+										</a>
+
+
 									</div>
 								</nav>
 								<!-- Tab Content
@@ -199,10 +200,6 @@
 												aria-labelledby="headingOne">
 												<article class="ipost">
 													<div class="entry-image mb-3">
-
-
-
-
 														<a href="#" onclick="lightbox_open();">
 															<img src="images/all_shema.png"></a>
 
@@ -259,7 +256,6 @@
 
 												<div class="collapse " id="collapseIrrigation">
 													<div class="card card-body">
-														<img src="images/bare_irrigate.png">
 														<img src="images/irrigation_shema.png">
 														<div class="entry-categories">
 														</div>
@@ -282,8 +278,6 @@
 														</div>
 													</div>
 												</div>
-
-
 											</div>
 										</div>
 									</div>
@@ -365,9 +359,7 @@
 						<div id="bitcoin-tab-contents" class="tab-content">
 
 							<div class="tab-pane fade show active" id="irrigation">
-
-								<section >
-
+								<section>
 									<div class="container clearfix">
 
 										<div class="heading-block topmargin-lg center">
@@ -468,103 +460,12 @@
 												</div>
 											</div>
 										</div>
-
-
+									</div>
 								</section>
 
 							</div>
-
-							<div class="tab-pane fade" id="plant_identif">
-								<section  >
-
-									<div class="container clearfix ">
-										<div class="heading-block topmargin-lg center">
-											<h2>
-												PHYTOSANITARY DIAGNOSIS USING YOUR MOBILE PHONE
-											</h2>
-										</div>
-										<div class="row bottommargin-sm">
-
-											<div class="col-lg-4 col-md-6 bottommargin">
-
-												<div class="feature-box fbox-right topmargin" data-animate="fadeIn">
-													<div class="fbox-icon">
-														<a href="#"><i class="icon-line-search"></i></a>
-													</div>
-
-													<h3> Identify the diseases </h3>
-													<p> Pests infecting their crops </p>
-												</div>
-
-												<div class="feature-box fbox-right topmargin" data-animate="fadeIn"
-													data-delay="200">
-													<div class="fbox-icon">
-														<a href="#"><i class="icon-line-paper"></i></a>
-													</div>
-													<h3>All detail about disease</h3>
-													<p>offre technical information about disease
-													</p>
-												</div>
-
-												<div class="feature-box fbox-right topmargin" data-animate="fadeIn"
-													data-delay="400">
-
-													<div class="fbox-icon">
-														<a href="#"><i class="icon-line2-camera"></i></a>
-													</div>
-													<h3>Mathematical modeling</h3>
-													<p>artificial intelligence in image processing. </p>
-												</div>
-											</div>
-
-											<div class="col-lg-4 d-md-none d-lg-block bottommargin center">
-												<img src="images/services/iphone7.png" style="max-width: 60%;"
-													alt="iphone 2">
-											</div>
-
-											<div class="col-lg-4 col-md-6 bottommargin">
-
-												<div class="feature-box topmargin" data-animate="fadeIn">
-													<div class="fbox-icon">
-														<a href="#"><i class="icon-leaf"></i></a>
-													</div>
-													<h3>Identify the progressive</h3>
-													<p>we can identify the stage of diseases .</p>
-												</div>
-
-												<div class="feature-box topmargin" data-animate="fadeIn"
-													data-delay="200">
-													<div class="fbox-icon">
-														<a href="#"><i class="icon-line-check"></i></a>
-													</div>
-
-
-													<h3>Appropriate corrective </h3>
-													<p> Preventive methods to use &amp; efficiency tests
-													</p>
-												</div>
-
-												<div class="feature-box topmargin" data-animate="fadeIn"
-													data-delay="400">
-													<div class="fbox-icon">
-														<a href="#"><i class="icon-graph"></i></a>
-													</div>
-													<h3>Disease prevention</h3>
-													<p> Using data like meteo in precision agricole
-													</p>
-												</div>
-
-											</div>
-
-										</div>
-								</section>
-
-							</div>
-
 							<div class="tab-pane fade" id="fertil"">
-						 
-								<section id="section_plateform"  >
-
+								<section id="section_plateform">
 								<div class="container clearfix">
 									<div class="row clearfix">
 										<div class="col-xl-5">
@@ -582,7 +483,7 @@
 												minimizing the cost.
 											</p>
 											<br>
-											<a href="/signin"  class="button button-desc button-3d button-rounded 
+											<a href="/signin" class="button button-desc button-3d button-rounded 
 												button-green center">
 												ACCESS TO SERVICE</a>
 										</div>
@@ -597,11 +498,108 @@
 										</div>
 									</div>
 								</div>
-				 
-		</section>
 
 
-	</div>
+				</section>
+
+
+
+
+			</div>
+			<div class="tab-pane fade" id="plant_identif">
+				<section>
+					<div class="container clearfix">
+						<div class="heading-block topmargin-lg center">
+							<h2>
+								PHYTOSANITARY DIAGNOSIS SERVICES
+							</h2>
+						</div>
+						<div class="row bottommargin-sm">
+
+							<div class="col-lg-4 col-md-6 bottommargin">
+
+								<div class="feature-box fbox-right topmargin" data-animate="fadeIn">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-line-search"></i></a>
+									</div>
+
+									<h3> Identify the diseases </h3>
+									<p> Pests infecting their crops </p>
+								</div>
+
+								<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-line-paper"></i></a>
+									</div>
+									<h3>All detail about disease</h3>
+									<p>offre technical information about disease
+									</p>
+								</div>
+
+								<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
+
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-line2-camera"></i></a>
+									</div>
+									<h3>Mathematical modeling</h3>
+									<p>artificial intelligence in image processing. </p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 d-md-none d-lg-block bottommargin center">
+								<div id="oc-portfolio-sidebar" class="owl-carousel carousel-widget" data-items="1"
+									data-margin="10" data-loop="true" data-nav="true" data-autoplay="3000">
+
+									<div class="col-lg-9  d-lg-block center">
+										<img src="images/app_desease/screen1.png" style="max-width: 90%;">
+									</div>
+									<div class="col-lg-9  d-lg-block center">
+										<img src="images/app_desease/screen2.png" style="max-width: 90%;">
+									</div>
+									<div class="col-lg-9  d-lg-block center">
+										<img src="images/app_desease/screen3.png" style="max-width: 90%;">
+									</div>
+									<div id="irrig1" class="col-lg-9  d-lg-block center">
+										<img src="images/app_desease/screen4.png" style="max-width: 90%;">
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-6 bottommargin">
+								<div class="feature-box topmargin" data-animate="fadeIn">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-leaf"></i></a>
+									</div>
+									<h3>Identify the progressive</h3>
+									<p>we can identify the stage of diseases .</p>
+								</div>
+
+								<div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-line-check"></i></a>
+									</div>
+
+
+									<h3>Appropriate corrective </h3>
+									<p> Preventive methods to use &amp; efficiency tests
+									</p>
+								</div>
+
+								<div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
+									<div class="fbox-icon">
+										<a href="#"><i class="icon-graph"></i></a>
+									</div>
+									<h3>Disease prevention</h3>
+									<p> Using data like meteo in precision agricole
+									</p>
+								</div>
+
+							</div>
+
+						</div>
+				</section>
+
+			</div>
 
 	</div>
 	</div>
@@ -610,7 +608,6 @@
 
 
 	<div class="line"></div>
-
 	<section id="section-medias" class="page-section">
 
 		<div class="section topmargin nobottommargin nobottomborder">
@@ -628,7 +625,8 @@
 
 					<div class="entry clearfix">
 						<div class="entry-image">
-							<img class="image_fade" src="images/talk2.png" alt="Standard Post with Image"></a>
+							<img class="image_fade" src="images/talk2.png"
+								alt="Standard Post with Image"></a>
 						</div>
 						<div class="entry-title">
 							<h2><a
@@ -648,10 +646,12 @@
 
 					<div class="entry clearfix">
 						<div class="entry-image">
-							<img class="image_fade" src="images/talk1.png" alt="Standard Post with Image"></a>
+							<img class="image_fade" src="images/talk1.png"
+								alt="Standard Post with Image"></a>
 						</div>
 						<div class="entry-title">
-							<h2><a href="https://www.agrimaroc.ma/ocp-um6p-capteurs-connectes-piloter-l-irrigation/">
+							<h2><a
+									href="https://www.agrimaroc.ma/ocp-um6p-capteurs-connectes-piloter-l-irrigation/">
 									business Unit de l’OCP </a></h2>
 						</div>
 						<ul class="entry-meta clearfix">
@@ -668,7 +668,8 @@
 
 					<div class="entry clearfix">
 						<div class="entry-image">
-							<img class="image_fade" src="images/talk3.png" alt="Standard Post with Image"></a>
+							<img class="image_fade" src="images/talk3.png"
+								alt="Standard Post with Image"></a>
 						</div>
 						<div class="entry-title">
 							<h2><a
@@ -690,7 +691,8 @@
 					<div class="entry clearfix">
 						<div class="entry-image">
 
-							<img class="image_fade" src="images/talk4.png" alt="Standard Post with Image"></a>
+							<img class="image_fade" src="images/talk4.png"
+								alt="Standard Post with Image"></a>
 						</div>
 						<div class="entry-title">
 							<h2><a
@@ -900,7 +902,7 @@
 				<div class="col_half col_last">
 
 					<div class="mapouter">
-						<div class="gmap_canvas"><iframe width="500" height="410" id="gmap_canvas"
+						<div class="gmap_canvas"><iframe width="500" height="368" id="gmap_canvas"
 								src="https://maps.google.com/maps?q=um6p&t=&z=9&ie=UTF8&iwloc=&output=embed"
 								frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 						</div>
@@ -909,14 +911,14 @@
 								.mapouter {
 									position: relative;
 									text-align: right;
-									height: 410px;
+									height: 368px;
 									width: 300px;
 								}
 
 								.gmap_canvas {
 									overflow: hidden;
 									background: none !important;
-									height: 410px;
+									height: 368px;
 									width: 300px;
 								}
 							}
@@ -925,14 +927,14 @@
 								.mapouter {
 									position: relative;
 									text-align: right;
-									height: 410px;
+									height: 368px;
 									width: 500px;
 								}
 
 								.gmap_canvas {
 									overflow: hidden;
 									background: none !important;
-									height: 410px;
+									height: 368px;
 									width: 500px;
 								}
 							}
@@ -949,7 +951,8 @@
 		</div>
 
 	</section><!-- #content end -->
-
+ 
+ 
 	</div>
 	</section><!-- #content end -->
 	<!-- Footer
@@ -992,8 +995,7 @@
 	<!-- scripts -->
 	<script src="particles.js"></script>
 	<script src="js/app.js"></script>
-
-
+   
 	<script>
 		window.document.onkeydown = function (e) {
 			if (!e) {
@@ -1076,7 +1078,6 @@
 			jQuery(this).toggleClass('video-muted');
 		});
 	</script>
-
-</body>
+ 
 
 </html>

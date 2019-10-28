@@ -105,7 +105,7 @@ body #side-panel.dark { background-color: #383838; }
 #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) { border-bottom-color: rgba(255,255,255,0.2); }
 
 .dark .slider-element + #header.transparent-header.full-header:not(.sticky-header) #header-wrap:not(.not-dark),
-.slider-element + #header.transparent-header.full-header.dark:not(.sticky-header) #header-wrap:not(.not-dark) { border-top-color: rgba(255,255,255,0.2); }
+ 
 
 .dark #header.semi-transparent,
 .dark #header.semi-transparent.floating-header .container,

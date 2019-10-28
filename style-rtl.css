@@ -550,7 +550,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) .container-fullwidth #top-s
 #page-menu.dots-menu nav li .dots-menu-caption:after {
 	right: auto;
 	left: -5px;
-	border-right: 6px solid #8DBC20;
+	border-right: 6px solid #69C154;
 	border-left: 0;
 }
 
@@ -2987,13 +2987,13 @@ body.device-touch .gmap:after {
 .title-block {
 	padding: 2px 20px 3px 0;
 	border-left: 0;
-	border-right: 7px solid #8DBC20;
+	border-right: 7px solid #69C154;
 }
 
 .title-block-right {
 	padding: 2px 0 3px 20px;
 	border-right: 0;
-	border-left: 7px solid #8DBC20;
+	border-left: 7px solid #69C154;
 	text-align: left;
 }
 
@@ -3327,7 +3327,7 @@ blockquote.pull-right {
 
 .widget-filter-links li.active-filter span {
 	color: #FFF;
-	background-color: #8DBC20;
+	background-color: #69C154;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 

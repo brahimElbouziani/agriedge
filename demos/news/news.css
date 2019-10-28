@@ -5,13 +5,13 @@
 
 /* change your menu color here */
 :root {
-	--home: #8DBC20;
-	--travel: #8DBC20;
+	--home: #69C154;
+	--travel: #69C154;
 	--tech: #007bff;
 	--fashion: #e83e8c;
 	--sports: #fd7e14;
 	--lifestyle: #13a774;
-	--food: #8DBC20;
+	--food:#69C154;
 	--market: #ffc107;
 }
 
@@ -455,7 +455,7 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div >
 	color: inherit !important;
 }
 
-.device-xs #primary-menu-trigger {margin-left: 25px;}
+.device-xs #primary-menu-trigger {margin-left: -18px;}
 
 .scroll-wrap {
 	width: 100%;
@@ -477,4 +477,4 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div >
 	border-radius: 4px;
 }
 
-.owl-carousel .owl-dots .owl-dot { background-color: #8DBC20; }
+.owl-carousel .owl-dots .owl-dot { background-color: #69C154; }

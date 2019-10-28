@@ -1536,8 +1536,8 @@
 	#header.full-header .container,
 	.container-fullwidth {
 		width: 100% !important;
-		padding-left: 40px !important;
-		padding-right: 40px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 	}
 
 	#primary-menu-trigger { left: 20px; }
