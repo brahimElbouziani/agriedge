@@ -4103,7 +4103,7 @@ input[type="button"].btn-block {
 }
 @media (max-width: 700.98px) {
   .nav-link {
-    padding: unset;
+   
   }
 }
 
@@ -4123,6 +4123,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  margin-top: 4px;
 }
 
 .nav-tabs .nav-link {
