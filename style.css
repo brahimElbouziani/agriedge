@@ -6688,9 +6688,24 @@ body:not(.device-touch) .button {
 
 @media   (max-width: 700.98px) {
 	.button.button-border {
-		font-size: 6px;
+		font-size: 7.7px;
 		padding: 0px;
 	}
+}
+	@media   (max-width: 370px) {
+		.button.button-border {
+			font-size: 4.2px;
+			padding: 0px;
+		}
+	}
+		@media   (min-width: 370px) and (max-width: 390px) {
+			.button.button-border {
+				font-size: 6.4px;
+				padding: 0px;
+			}
+
+		
+
 }
 
 .button.button-border-thin {
