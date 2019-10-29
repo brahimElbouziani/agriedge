@@ -615,19 +615,18 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #1265A8;
 }
 
-.button-amber { background-color: #EB9C4D; }
+.button-amber { background-color: #8DBC24; }
 .button-3d.button-amber:hover,
 .button-reveal.button-amber:hover,
 .button-border.button-amber:hover,
-.button-border.button-amber.button-fill:before { background-color: #EB9C4D !important; }
+.button-border.button-amber.button-fill:before { background-color: #8DBC24 !important; }
 
 .button-border.button-amber {
-	color: #EB9C4D;
-	border-color: #EB9C4D;
+	color: #8DBC24;
+	border-color: #8DBC24;
 	
 	.btn @media(max-width:768px) { 
 		font-weight: 50;
-	
 	}
 }
 
